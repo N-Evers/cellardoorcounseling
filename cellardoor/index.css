@@ -1,0 +1,178 @@
+.dark-nav {
+    background-color: #3A3B3C;
+    height: 120px;
+}
+
+
+    .bear {
+        opacity: 0;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+    }
+
+    .warning {
+        color: red;
+    }
+
+    .nav-height {
+        height: 90px;
+        width: 100%;
+        padding: 15px 0;
+        transition: background-color 1s;
+    }
+
+    .no-bg {
+        background-color: none;
+    }
+
+    .nav-text {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .transition {
+        transition: height 0.3s linear;
+    }
+
+    .nav-text-1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25pt;
+    }
+
+    .btm-img {
+        height: 250px;
+        width: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background-image: url('logo.PNG'); 
+    }
+    
+    .center-elem {
+        text-align: center;
+    }
+
+body, html {
+    height: 100%;
+}
+
+.title_decoration {
+    font-size: 20px;
+}
+
+.title {
+    text-align: start;
+    white-space: nowrap;
+}
+
+.background {
+    background-image: url('main.jpg');
+    
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 15%;
+}
+
+.home {
+    text-align: end;
+}
+
+.break {
+    height: 20%;
+}
+.container_custom {
+    width:100%;
+    display: flex;
+    margin: 0;
+}
+.left {
+    width: 50%;
+}
+
+.right {
+    background-image: url('midImg.jpg');
+    height: 600px;
+    width: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.cream {
+    background-color: #F9F9F7;
+}
+
+.custom_form {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_description {
+    font-size: 15pt;
+}
+
+.input_width {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.input_height {
+    height: 50px;
+}
+
+.area_width {
+    width: 100%;
+}
+
+.custom-nav {
+    height: 150px;
+    background-color: grey;
+}
+
+@media (max-width: 700px) {
+    .right {
+      display: none;
+    }
+    .left {
+        width: 100%;
+    }
+    .break {
+        height: 10px;
+    }
+}
