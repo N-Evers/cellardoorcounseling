@@ -6,6 +6,6 @@ Bootstrap is used to keep the ux clean and consistent. PHP is used for the mail 
 
 Form submisison rate limits are set up in order to prevent spam from bots.
 
-Validation is used to make sure the clients emails are submitted in the proper format to for communication back and fourth.
+Validation is used to make sure the clients emails are submitted in the proper format for communication back and fourth.
 
 The link to the live website is: https://cellardoorcounseling.org/
